@@ -1,0 +1,15 @@
+/**************************************************************
+* File Name   : Algorithm.txt
+* Author Name : Chekkala lavanya
+* Description : TO compute algorithm
+**************************************************************/
+ALGORITHM sum(n)
+//Input: A non-negative integer n
+sum <- 0
+for index <- 1 to n do
+sum <- sum + i
+return sum
+QUESTION 1: what does the above algorithm compute?
+ANSWER    : It computes the sum of list n integers
+QUESTION 2: what is the efficiency class of the given algorithm?
+ANSWER    : 0(n^1) 

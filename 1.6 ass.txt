@@ -1,0 +1,29 @@
+/***************************************
+*File Name        : Acccept.txt
+*Author Name      : Chekkala Lavanya
+*Description      : Pseudocode to accept 10 numbers and display the smallest number,odd and even number
+****************************************/
+BEGIN
+ 
+       DECLARE numbers[10] AS INTEGER ARRAY
+       PROMPT "Enter the 10 numbers" AND STORE IN numbers
+       //smallest  number
+       INITIALIZE min 10 numbers[0]
+       FOR index = 1 to 9
+               IF numbers[index]<min
+                  SET min=numbers[index]
+               END IF
+       END FOR
+       PRINT "smallest number is ",min
+       //odd numbers
+       FOR index = 0 t0 9
+              IF numbers[index] % 2 == 1
+                 PRINT numbers[index]
+       END FOR
+       //even numbers
+       FOR index = 0 to 9
+          IF numbers[index] % 2 == 0
+            PRINT numbers[index]
+          END IF
+       END FOR
+END            

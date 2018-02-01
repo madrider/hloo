@@ -1,0 +1,18 @@
+/**********************************************************************************************************
+* File Name    : Tracig.txt
+* Author name  : Chekkala Lavanya
+*Description   : Determine the output of below given algorithm by tracing it for the taking any sample input. 
+***********************************************************************************************************/
+*Determine the output of the below given algorithm by tracing it for the taking any sample input.
+ALGORITHM surprise (A[0..n-1])
+//Input: An array A[0..n-1] of real numbers
+IF n=1
+return A[0]
+else
+t<-surprise (A[0..n-1])
+if t<=A[n-1]
+return t
+else
+return A[n-1]
+**********************OUTPUT
+First element will  be printed.
